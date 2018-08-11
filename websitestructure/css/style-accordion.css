@@ -1,0 +1,107 @@
+/* helpers/align.css */
+/* vendor/ui-accordion.css */
+
+.ui-accordion {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.ui-accordion-header {
+  cursor: pointer;
+  margin: 0;
+  
+}
+
+.ui-accordion-content {
+  background-color: #fff;
+}
+
+.ui-accordion-content + .ui-accordion-header {
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+
+.js-ui-accordion {
+  position: absolute;
+  text-align: center;
+  bottom: 1px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%
+}
+
+.accordion-btn {
+  padding: 6px 24px;
+  background-color: #fff;
+  border: 0px;
+  outline: none;
+  margin-left: 9px;
+}
+
+.accordion-content{
+  display: flex;
+  text-align: left;
+}
+
+.accordion-block{
+  display: flex;
+  position: relative;
+  padding-left: 17px;
+  padding-right: 24px;
+  padding-bottom: 11px;
+  flex-direction: column;
+}
+
+.accordion-block a{
+  position: absolute;
+  bottom: 5px;
+  right: 5%;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+.accordion-block__one{
+  background-color: #e2d1a6;
+}
+
+.accordion-block__three{
+  background-color: #000;
+  color: #fefefe;
+}
+
+.accordion-text__one{
+  margin-bottom: 30px;
+}
+
+.accordion-text__two{
+  margin-bottom: 30px;
+}
+
+.accordion-text__three{
+  margin-bottom: 30px;
+}
+.accordion-block__one a{
+  color: #fff
+}
+.accordion-block__one a:hover{
+  text-decoration: underline;
+
+}
+
+.accordion-block__two a{
+  color: #000
+}
+
+.accordion-block__two a:hover{
+  text-decoration: underline;
+
+}
+
+.accordion-block__three a{
+  color: #fff
+}
+
+.accordion-block__three a:hover{
+  text-decoration: underline;
+
+}
